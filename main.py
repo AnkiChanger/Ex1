@@ -31,3 +31,16 @@ if start == '+':
                 user_ball += 1
             if rand == user:
                 pass
+        elif user == '?':
+            print(f'Ваші бали - {user_ball}, Бали вашого суперника - {rand_ball}.')
+        elif user == '-':
+            print(f'Ваші бали - {user_ball}, Бали вашого суперника - {rand_ball}.')
+            print('Кінець гри, Допобачення!')
+            break
+        else:
+            print("Ведіть",'к','н','п')
+
+if start == "-":
+    print('Дуже сумно, допобачення')
+else:
+    print("Я вас не зрозумів, перезапустіть програму.")

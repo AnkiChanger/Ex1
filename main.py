@@ -36,7 +36,7 @@ if start == '+':
                 user_ball += 1
                 print('Ви перемогли :)')
             if rand == user:
-                pass
+                print('Ничія')
         elif user == '?':
             print(f'Ваші бали - {user_ball}, Бали вашого суперника - {rand_ball}.')
         elif user == '-':
